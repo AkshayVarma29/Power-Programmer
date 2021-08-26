@@ -15,3 +15,6 @@ Given a binary tree root, return the sum of all values in the tree.
 
 ### 5. Strictly Increasing Linked List (Easy)
 Given the head of a singly linked list head, return whether the values of the nodes are sorted in a strictly increasing order.
+
+### 6. Unique Integers in Sorted List (Easy)
+Given a list of sorted integers nums return the number of unique integers in the list.

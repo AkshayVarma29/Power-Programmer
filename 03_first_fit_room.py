@@ -14,7 +14,4 @@ def solve(rooms, target):
 
 print(solve(rooms, target))
 
-# [Running] python -u "d:\Akshay\VSCode\power_programmer\first_fit_room.py"
-# 30
-
 # [Done] exited with code=0 in 0.117 seconds
