@@ -4,26 +4,27 @@
 
 # Check the time taken for the program to run.
 import time
+from typing import Pattern
 start_time = time.time()
 
 # Actual Code
-s = "aaaaauuhhhhbggffaa"
-def compress_string(s):
-    letters = [s[0]]
+pattern = "aaaaauuhhhhbggffaa"
+def compress_string(pattern):
+    letters = [pattern[0]]
     cons = False
-    for i in range (1,len(s)):
-        if s[i] in letters:
-            if s[i-1] == s[i]:
+    for i in range (1,len(pattern)):
+        if pattern[i] in letters:
+            if pattern[i-1] == pattern[i]:
                 cons = True
             else:
                 cons = False
-                letters.append(s[i])
+                letters.append(pattern[i])
         else:
-            letters.append(s[i])
+            letters.append(pattern[i])
     final = ''.join(letters)
     return final
 
-print(compress_string(s))
+print(compress_string(pattern))
 
 # Print time taken
 print("Process finished --- %s seconds ---" % (time.time() - start_time))
