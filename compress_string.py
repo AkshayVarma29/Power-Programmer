@@ -4,7 +4,6 @@
 
 # Check the time taken for the program to run.
 import time
-from typing import Pattern
 start_time = time.time()
 
 # Actual Code
@@ -24,7 +23,7 @@ def compress_string(pattern):
     final = ''.join(letters)
     return final
 
-print(compress_string(pattern))
+print('\n' + compress_string(pattern))
 
 # Print time taken
-print("Process finished --- %s seconds ---" % (time.time() - start_time))
+print("Process finished --- %s seconds ---" % (time.time() - start_time) + '\n')
