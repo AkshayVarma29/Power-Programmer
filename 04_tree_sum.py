@@ -7,5 +7,3 @@ def solve(root):
     if root == None:
         return 0
     return root.val + solve(root.left) + solve(root.right)
-
-print(solve(root))
