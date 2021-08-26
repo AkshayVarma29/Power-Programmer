@@ -2,11 +2,6 @@
 # That is, if the list contains repeated characters, they should be replaced with a single character.
 # The order of the elements should not be changed. 
 
-# Check the time taken for the program to run.
-import time
-start_time = time.time()
-
-# Actual Code
 pattern = "aaaaauuhhhhbggffaa"
 def compress_string(pattern):
     letters = [pattern[0]]
@@ -23,7 +18,4 @@ def compress_string(pattern):
     final = ''.join(letters)
     return final
 
-print('\n' + compress_string(pattern))
-
-# Print time taken
-print("Process finished --- %s seconds ---" % (time.time() - start_time) + '\n')
+print(compress_string(pattern))
