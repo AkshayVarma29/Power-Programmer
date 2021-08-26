@@ -12,3 +12,6 @@ You are given a list of integers rooms and an integer target. Return the first i
 
 ### 4. Tree Sum (Medium)
 Given a binary tree root, return the sum of all values in the tree.
+
+### 5. Strictly Increasing Linked List (Easy)
+Given the head of a singly linked list head, return whether the values of the nodes are sorted in a strictly increasing order.
