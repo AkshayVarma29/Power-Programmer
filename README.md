@@ -1,5 +1,5 @@
 # Power Programmer Solutions
-* This list is updated regularly with new and better problems. *
+*This list is updated regularly with new and better problems.*
 
 | Difficulty Level | Total Problems |
 | --- | --- |
