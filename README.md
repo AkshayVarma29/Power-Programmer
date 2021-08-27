@@ -4,7 +4,7 @@
 | Difficulty Level | Total Problems | Topics |
 | --- | --- | --- |
 | Easy | 5 | Basic Transformations, Data Structures |
-| Medium | 1 | Binary Tree |
+| Medium | 2 | Binary Tree, Hashtable |
 | Hard | 2 | 2D Grid Problems, Backtracking |
 
 ### 1. Compress Strings (Easy)
@@ -35,6 +35,7 @@ However, he is sure about some facts:
 How many placements of these two pieces are possible if he remembers correctly?
 
 ### 8. K-Berries Problem (Hard)
-There are 2 types of Berries. Pineapple and Banana berries. 
-Given that each Banana berry gives you exactly K calaries and each Pineapple berry gives 1 calorie.
-Determine the number of ways in which you can eat the berries to gain exactly N calories.
+There are 2 types of Berries. Pineapple and Banana berries. Given that each Banana berry gives you exactly K calaries and each Pineapple berry gives 1 calorie. Determine the number of ways in which you can eat the berries to gain exactly N calories.
+
+### 9. File Naming (Medium)
+You are given an array of desired filenames in the order of their creation. Since two files cannot have equal names, the one which comes later will have an addition to its name in a form of (k) where k is smallest positive integer such that obtained name is not used yet. Return the array of names that will be given to the files.
