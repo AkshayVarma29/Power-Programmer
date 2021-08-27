@@ -1,4 +1,12 @@
 # Power Programmer Solutions
+* This list is updated regularly with new and better problems. *
+
+| Difficulty Level | Total Problems |
+| --- | --- |
+| Easy | 5 |
+| Medium | 1 |
+| Hard | 1 |
+| Extreme | 0 |
 
 ### 1. Compress Strings (Easy)
 Given a string lowercase alphabet 's', eliminate consecutive duplicate characters from the string and return it. That is, if the list contains repeated characters, they should be replaced with a single character. The order of the elements should not be changed. 
