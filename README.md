@@ -6,7 +6,6 @@
 | Easy | 5 | Basic Transformations, Data Structures |
 | Medium | 1 | Binary Tree |
 | Hard | 2 | 2D Grid Problems, Backtracking |
-| Extreme | 0 | NA |
 
 ### 1. Compress Strings (Easy)
 Given a string lowercase alphabet 's', eliminate consecutive duplicate characters from the string and return it. That is, if the list contains repeated characters, they should be replaced with a single character. The order of the elements should not be changed. 
