@@ -1,12 +1,12 @@
 # Power Programmer Solutions
 *This list is updated regularly with new and better problems.*
 
-| Difficulty Level | Total Problems |
-| --- | --- |
-| Easy | 5 |
-| Medium | 1 |
-| Hard | 1 |
-| Extreme | 0 |
+| Difficulty Level | Total Problems | Topics |
+| --- | --- | --- |
+| Easy | 5 | Basic Transformations, Data Structures |
+| Medium | 1 | Binary Tree |
+| Hard | 2 | 2D Grid Problems, Backtracking |
+| Extreme | 0 | NA |
 
 ### 1. Compress Strings (Easy)
 Given a string lowercase alphabet 's', eliminate consecutive duplicate characters from the string and return it. That is, if the list contains repeated characters, they should be replaced with a single character. The order of the elements should not be changed. 
@@ -34,3 +34,8 @@ However, he is sure about some facts:
 - The locations of second piece on board is (x2,y2) and xl2<=x2<=xr2, yl2<=y2<=yr2
 - The chessboard cells corresponding to the pieces are of same color
 How many placements of these two pieces are possible if he remembers correctly?
+
+### 8. K-Berries Problem (Hard)
+There are 2 types of Berries. Pineapple and Banana berries. 
+Given that each Banana berry gives you exactly K calaries and each Pineapple berry gives 1 calorie.
+Determine the number of ways in which you can eat the berries to gain exactly N calories.
