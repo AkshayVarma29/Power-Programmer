@@ -1,11 +1,11 @@
 # Power Programmer Solutions
 *This list is updated regularly with new and better problems.*
 
-| Difficulty Level | Total Problems | Topics |
-| --- | --- | --- |
-| Easy | 5 | Basic Transformations, Data Structures |
-| Medium | 2 | Binary Tree, Hashtable |
-| Hard | 3 | 2D Grid Problems, Backtracking |
+| Difficulty Level | Total Problems |
+| --- | --- |
+| Easy | 5 |
+| Medium | 3 |
+| Hard | 3 |
 
 ### 1. Compress Strings (Easy)
 Given a string lowercase alphabet 's', eliminate consecutive duplicate characters from the string and return it. That is, if the list contains repeated characters, they should be replaced with a single character. The order of the elements should not be changed. 
@@ -46,3 +46,7 @@ Implement regular expression matching with the following special characters:
 - * (asterisk) which matches zero or more of the preceding element
 That is, implement a function that takes in a valid regular expression pattern and a string s and returns whether or not the string matches the regular expression.
 Note: The input pattern is guaranteed not to have consecutive asterisks.
+
+### 11. Special Product List (Medium)
+Given a list of integers nums, return a new list such that each element at index i of the new list is the product of all the numbers in the original list except the one at i. Do this without using division.
+
