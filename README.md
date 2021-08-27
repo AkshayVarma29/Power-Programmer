@@ -5,7 +5,7 @@
 | --- | --- | --- |
 | Easy | 5 | Basic Transformations, Data Structures |
 | Medium | 2 | Binary Tree, Hashtable |
-| Hard | 2 | 2D Grid Problems, Backtracking |
+| Hard | 3 | 2D Grid Problems, Backtracking |
 
 ### 1. Compress Strings (Easy)
 Given a string lowercase alphabet 's', eliminate consecutive duplicate characters from the string and return it. That is, if the list contains repeated characters, they should be replaced with a single character. The order of the elements should not be changed. 
@@ -39,3 +39,10 @@ There are 2 types of Berries. Pineapple and Banana berries. Given that each Bana
 
 ### 9. File Naming (Medium)
 You are given an array of desired filenames in the order of their creation. Since two files cannot have equal names, the one which comes later will have an addition to its name in a form of (k) where k is smallest positive integer such that obtained name is not used yet. Return the array of names that will be given to the files.
+
+### 10. Regular Expression Matching (Hard)
+Implement regular expression matching with the following special characters:
+- . (period) which matches any single character
+- * (asterisk) which matches zero or more of the preceding element
+That is, implement a function that takes in a valid regular expression pattern and a string s and returns whether or not the string matches the regular expression.
+Note: The input pattern is guaranteed not to have consecutive asterisks.
