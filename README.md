@@ -18,3 +18,11 @@ Given the head of a singly linked list head, return whether the values of the no
 
 ### 6. Unique Integers in Sorted List (Easy)
 Given a list of sorted integers nums return the number of unique integers in the list.
+
+### 7. Chess Pieces (Hard)
+A famous chess grandmaster was analysing one of his games in his head and he suddenly forgot his positions for two important pieces.
+However, he is sure about some facts:
+- The locations of first piece on board is (x1,y1) and xl1<=x1<=xr1, yl1<=y1<=yr1
+- The locations of second piece on board is (x2,y2) and xl2<=x2<=xr2, yl2<=y2<=yr2
+- The chessboard cells corresponding to the pieces are of same color
+How many placements of these two pieces are possible if he remembers correctly?
