@@ -9,18 +9,28 @@
 names = ['doc','doc','image','doc(1)','doc']
 result = []
 
+# def fileNaming(names):
+#     version = {x:0 for x in names}
+#     for name in names:
+#         if version[name] == 0 and name not in result:
+#             result.append(name)
+#         else:
+#             version[name] += 1
+#             result.append(name + '(' + str(version[name]) + ')')
+#     return result
+
 def fileNaming(names):
-    version = {x:0 for x in names}
-    for name in names:
-        if version[name] == 0 and name not in result:
-            result.append(name)
-        else:
-            version[name] += 1
-            result.append(name + '(' + str(version[name]) + ')')
-    return result
+    for i in range(len(names)):
+        if names[i] in names[:i]:
+            j = 1
+            while names[i] + '(' + str(j) + ')' in names[:i]:
+                j += 1
+            names[i] += '(' + str(j) + ')'
+    return names
 
 print(fileNaming(names))
 
 # ['doc', 'doc(1)', 'image', 'doc(1)(1)', 'doc(2)']
 
 # [Done] exited with code=0 in 0.109 seconds
+# [Done] exited with code=0 in 0.108 seconds
