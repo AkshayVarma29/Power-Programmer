@@ -50,3 +50,10 @@ Note: The input pattern is guaranteed not to have consecutive asterisks.
 ### 11. Special Product List (Medium)
 Given a list of integers nums, return a new list such that each element at index i of the new list is the product of all the numbers in the original list except the one at i. Do this without using division.
 
+### 12. Ticket ID Generation (Hard)
+Given a String containing ticket information for passengers. Provide the ticket id for each passenger based on following rules -
+- First Two letters of Source 
+- Last Two Letters of Destination
+- Sum of even spaced digits of phone number
+- id (starting from 1)
+
